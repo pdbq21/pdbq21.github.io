@@ -1,0 +1,32 @@
+{
+  "name": "pdbq21.github.io",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdbq21/pdbq21.github.io.git"
+  },
+  "author": "ruslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdbq21/pdbq21.github.io/issues"
+  },
+  "homepage": "https://github.com/pdbq21/pdbq21.github.io#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.18.0"
+  }
+}
