@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
 
 
-    entry: "./coming_soon.js",
+    entry: "./coming_soon/coming_soon.js",
     output: {
         filename: "build.js"
     },
@@ -19,11 +19,11 @@ module.exports = {
 
     plugins: [
         /*new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false,
-                drop_console: true
-            }
-        })*/
+         compress: {
+         warnings: false,
+         drop_console: true
+         }
+         })*/
     ],
 
     module: {
@@ -38,6 +38,10 @@ module.exports = {
                 query: {
                     plugins: ['transform-runtime']
                 }
+            },
+            {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
             }
 
         ]
